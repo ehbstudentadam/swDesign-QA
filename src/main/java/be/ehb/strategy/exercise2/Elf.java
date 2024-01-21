@@ -1,6 +1,6 @@
 package be.ehb.strategy.exercise2;
 
-public class Elf extends java.lang.Character {
+public class Elf extends Character {
 	public Elf() {
 		
 		weaponBehavior = new BowAndArrow();

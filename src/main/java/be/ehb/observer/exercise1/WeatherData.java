@@ -1,31 +1,30 @@
 package be.ehb.observer.exercise1;
 
-import java.util.*;
-import java.util.Observer;
+import java.util.ArrayList;
 
 public class WeatherData implements Subject {
-	private ArrayList<java.util.Observer> observers;
+	private ArrayList<Observer> observers;
 	private float temperature;
 	private float humidity;
 	private float pressure;
 	
 	public WeatherData() {
-		observers = new ArrayList<java.util.Observer>();
+		observers = new ArrayList<Observer>();
 	}
 	
-	public void registerObserver(java.util.Observer o) {
+	public void registerObserver(Observer o) {
 		observers.add(o);
 		System.out.println("registered observer " + o.getClass().getSimpleName());
 	}
 	
-	public void removeObserver(java.util.Observer o) {
+	public void removeObserver(Observer o) {
 			observers.remove(o);
 			System.out.println("Removed observer " + o.getClass().getSimpleName());
 	}
-	
+
 	public void notifyObservers() {
 		for (int i = 0; i < observers.size(); i++) {
-			java.util.Observer observer = (Observer)observers.get(i);
+			Observer observer = (Observer)observers.get(i);
 			observer.update(temperature, humidity, pressure);
 		}
 	}

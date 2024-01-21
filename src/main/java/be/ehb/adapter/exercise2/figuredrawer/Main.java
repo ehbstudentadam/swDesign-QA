@@ -1,6 +1,6 @@
 package be.ehb.adapter.exercise2.figuredrawer;
 
-import be.ehb.drawers.MainDrawer;
+import be.ehb.adapter.exercise2.drawers.MainDrawer;
 
 public class Main {
 

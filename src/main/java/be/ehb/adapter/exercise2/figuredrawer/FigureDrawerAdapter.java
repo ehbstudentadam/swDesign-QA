@@ -2,7 +2,7 @@ package be.ehb.adapter.exercise2.figuredrawer;
 
 import java.awt.Point;
 
-import be.ehb.drawers.IFigureDrawable;
+import be.ehb.adapter.exercise2.drawers.IFigureDrawable;
 
 public class FigureDrawerAdapter implements IFigureDrawable {
 	

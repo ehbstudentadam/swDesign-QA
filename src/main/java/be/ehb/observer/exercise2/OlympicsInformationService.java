@@ -31,7 +31,7 @@ public class OlympicsInformationService implements Subject{
 
 
 	@Override
-	public void removeObserver(observer.exercise2.Observer o) {
+	public void removeObserver(Observer o) {
 		observers.remove(o);
 		System.out.println("Removed observer " + o.getClass().getSimpleName());
 

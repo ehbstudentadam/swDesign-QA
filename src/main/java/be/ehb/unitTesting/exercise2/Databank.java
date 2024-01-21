@@ -1,9 +1,8 @@
 package be.ehb.unitTesting.exercise2;
+import be.ehb.unitTesting.exercise2.exceptions.LeeftijdException;
+import be.ehb.unitTesting.exercise2.exceptions.NaamException;
 
 import java.util.ArrayList;
-
-import ehb.ex2.exceptions.LeeftijdException;
-import ehb.ex2.exceptions.NaamException;
 
 public class Databank {
 	//simulatie databank
