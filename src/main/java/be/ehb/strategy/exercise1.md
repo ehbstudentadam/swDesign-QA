@@ -1,7 +1,7 @@
 ## Strategy pattern: Ducks
 Implement the class diagram of the duck program that we discussed during the lecture.
 
-![alt text](.src\main\resources\excersiceImages\strategy_ducks.png "ducks class diagram")
+![alt text](https://github.com/ehbstudentadam/swDesign-QA/blob/master/src/main/resources/excersiceImages/strategy_ducks.png?raw=true "ducks class diagram")
 
 Implement a print to the console in the display() methods, showing what kind of duck
 we are working with. The quack() and fly() methods also implement an output to the

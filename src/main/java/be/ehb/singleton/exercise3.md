@@ -14,7 +14,7 @@ the first document to be printed from the row. The removeDocument method will re
 a specific document from the queue. This method is used when the user wants to cancel
 the print.
 
-![alt text](src\main\resources\excersiceImages\strategy_singleton.png "class diagram")
+![alt text](https://github.com/ehbstudentadam/swDesign-QA/blob/master/src/main/resources/excersiceImages/strategy_singleton.png?raw=true "class diagram")
 
 Test your code by adding a number of documents to the singleton PrintSpooler and
 removing a few of them, ... To test the class you can add a printDocuments() method

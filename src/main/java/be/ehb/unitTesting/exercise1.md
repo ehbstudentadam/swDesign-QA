@@ -2,7 +2,7 @@
 We have implemented an application to manage our personal library. We implemented
 three classes:
 
-![alt text](src\main\resources\excersiceImages\unit_testing.png "class diagram")
+![alt text](https://github.com/ehbstudentadam/swDesign-QA/blob/master/src/main/resources/excersiceImages/unit_testing.png?raw=true "class diagram")
 
 A patron should be able to borrow and return books. By default the library lends a
 maximum of 3 books per patron although some patrons can borrow more books. For
